@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL="http://localhost:8080/student";
+const baseURL="https://hostel-springboot-render.onrender.com/student";
 //using object
 const StudentListService={//objet named StudentServiceList
     getAllStudents:()=>{//method getAllStudents

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const baseURL="http://localhost:8080/student";
+const baseURL="https://hostel-springboot-render.onrender.com/student";
 
 const RegistrationService={
     addStudent:(firstName,middleName,lastName,phoneNumber,emailId)=>{
