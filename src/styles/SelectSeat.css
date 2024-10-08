@@ -1,0 +1,23 @@
+.selectSeatContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    border: solid red;
+}
+
+.seat{
+    width: 100px;/*width of box*/
+    height: 100px;/*height of box*/
+    background-color: rgb(14, 182, 14);/*color of box*/
+    border: 10px solid black;/*border of box*/
+    display: flex;
+    justify-content: center;/*display of text inside box left/right*/
+    align-items: center;/*display of text top/bottom*/
+    font-size: 16px;/*font size*/
+    cursor: pointer;
+}
+
+.seat.selected{
+    background-color: red;
+}

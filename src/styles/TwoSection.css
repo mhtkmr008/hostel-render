@@ -1,0 +1,33 @@
+/*TwoSection.css for TwoSection.js*/
+.twoSectionCenterWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh-60px);
+    margin-top: 60px;
+}
+
+
+.twoSectioncontainer {
+    display: flex;
+    align-items: center;
+}
+
+.twoSectionleft-section {
+    background-color: aliceblue;
+    flex: auto;
+    color: black; /* Added this for text visibility */
+    padding: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.twoSectionright-section {
+    background-color: blue;
+    background-image: url(../../public/images/homePic.jpeg);
+    flex: auto;
+    color: white; /* Added this for contrast */
+    padding: 200px;
+    text-align: center;
+    font-size: 20px;
+}

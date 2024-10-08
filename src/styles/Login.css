@@ -1,0 +1,33 @@
+/*Login.css for Login.js*/
+
+.loginCenterWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+}
+
+.loginLeft-section {
+    /* background-image: url(../../public/images/homePic.jpeg); */
+    background-color: aliceblue;
+    flex: auto;
+    color: black; /* Added this for text visibility */
+    padding: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginRight-section {
+    background-color: blue;
+    flex: auto;
+    color: white; /* Added this for contrast */
+    padding: 200px;
+    text-align: center;
+    font-size: 20px;
+}
